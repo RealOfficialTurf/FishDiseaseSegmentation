@@ -62,7 +62,7 @@ Then run the notebook.
 
 ### Two Stage Transfer Learning
 
-The classification notebook file outputs the classification model weight file in the form of `<Name>-<Size>^2-<DatasetName>+CutMixUp-<Optimizer>-CE_wprop-BS8-E<EpochCount>-<TrainAcc>_<ValAcc>_<TestAcc?.pth` as well as various loss curve plots. As part of the two stage transfer learning method in the paper, The classification model weight files are subsequently used in the segmentation notebook file.
+The classification notebook file outputs the classification model weight file in the form of `<Name>-<Size>^2-<DatasetName>+CutMixUp-<Optimizer>-CE_wprop-BS8-E<EpochCount>-<TrainAcc>_<ValAcc>_<TestAcc>.pth` as well as various loss curve plots. As part of the two stage transfer learning method in the paper, The classification model weight files are subsequently used in the segmentation notebook file.
 
 In the segmentation notebook file, the following variables need to be modified and filled with the file path pointing to the classification model weight files.
 
